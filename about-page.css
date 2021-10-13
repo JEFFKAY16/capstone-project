@@ -379,10 +379,6 @@ main {
   .partner-items img {
     width: 250px;
   }
-
-  .footer-section p {
-    font-size: 19px;
-  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -430,16 +426,6 @@ main {
   .features-section p {
     font-size: 24px;
   }
-
-  .footer-section p {
-    font-size: 23px;
-    width: 500px;
-  }
-
-  .footer-section img {
-    width: 150px;
-    height: 100px;
-  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -474,11 +460,6 @@ main {
 
   .main-header .logo {
     display: flex;
-  }
-
-  .footer-section img {
-    width: 200px;
-    height: 120px;
   }
 
   .main-header .logo img {
@@ -572,7 +553,7 @@ main {
   }
 
   .footer-section p {
-    font-size: 25px;
-    width: 800px;
+    font-size: 20px;
+    width: 500px;
   }
 }

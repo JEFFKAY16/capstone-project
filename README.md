@@ -9,7 +9,10 @@
 ![screenshot](./images/screenshot1.png)
 
 ## Live link
-[Click here to see project]()
+[Click here to see project](https://jeffkay16.github.io/capstone-project/)
+
+## Video Documentation
+[Click here to see the project documentation video](https://www.loom.com/share/f2e60795acd244869cd5d18122ed3a3e)
 
 Additional description about the project and its features.
 
