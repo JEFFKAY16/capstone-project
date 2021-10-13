@@ -82,7 +82,7 @@ main {
 
 .home-header-text .background-red {
   background: url('./images/red-background.png');
-  -webkit-background-clip: content-box;
+  -webkit-background-clip: text;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
