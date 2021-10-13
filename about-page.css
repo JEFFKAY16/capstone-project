@@ -1,0 +1,578 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Lato, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+
+.sub-menu {
+  display: none;
+}
+
+.logo {
+  display: none;
+}
+
+.open-menu {
+  display: flex;
+  color: #272a31;
+}
+
+.close-menu {
+  display: flex;
+  color: #272a31;
+  width: 50px;
+  margin-bottom: 40px;
+}
+
+.main-menu {
+  display: none;
+}
+
+main {
+  background-image: url('./images/home-background-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+.mobile-menu img {
+  cursor: pointer;
+  color: #272a31;
+  width: 40px;
+}
+
+.home-header-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-header-text .plain-red {
+  color: #ec5242;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.home-text {
+  padding: 50px 0 20px 0;
+}
+
+.home-header-text .background-red {
+  background: url('./images/red-background.png');
+  -webkit-background-clip: content-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: transparent;
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.home-para-text {
+  background: #fff;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+.home-para-text p {
+  color: #272a31;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.home-date-text {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.program-section {
+  background-color: #fff;
+  color: #000;
+  padding: 50px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.push-picture-frame {
+  margin-bottom: 20px;
+}
+
+.program-section .section-title {
+  color: #000;
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.program-section p {
+  color: rgb(155, 155, 155);
+  padding-top: 20px;
+}
+
+.logo-with-border {
+  width: 100%;
+  padding: 20px;
+  border: 2px solid #eee;
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+.logo-with-border img {
+  width: 70%;
+}
+
+.top {
+  border: 2px solid #ec5242;
+  width: 50px;
+  margin-top: 15px;
+}
+
+.grey-line {
+  border: 2px solid #eee;
+}
+
+.features-section {
+  background-color: #fff;
+  padding: 20px 20px;
+}
+
+.features-section .section-title {
+  color: #000;
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features-section p {
+  color: rgb(155, 155, 155);
+  padding-top: 20px;
+}
+
+.features-info p {
+  color: #272a31;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.display-amount {
+  display: none;
+}
+
+.d-flex-pictures {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.two-pictures {
+  width: 100%;
+  height: 200px;
+  background-image: url('./images/About-one.jpg');
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.over-lay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #db6e5a;
+  mix-blend-mode: overlay;
+}
+
+.about-card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15%;
+}
+
+.about-card-text h1 {
+  font-size: 28px;
+  color: #fff;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.about-card-text p {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.two-pictures-1 {
+  width: 100%;
+  height: 200px;
+  background-image: url('./images/About-two.jpg');
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.over-lay-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #db6e5a;
+  mix-blend-mode: overlay;
+}
+
+.partners-section {
+  background-color: #414246;
+  padding: 50px 20px 20px 20px;
+}
+
+.partners-section .section-title {
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.company-logos {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+
+.partner-items img {
+  width: 150px;
+}
+
+.footer-section {
+  background-color: #fff;
+  color: #000;
+  padding: 40px 20px 20px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+  gap: 20px;
+}
+
+.footer-section img {
+  width: 100px;
+}
+
+.footer-section p {
+  font-size: 14px;
+  width: 400px;
+}
+
+.display-menu {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  padding: 50px 40px;
+  z-index: 20;
+}
+
+.display-menu li {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+  margin-bottom: 20px;
+}
+
+.display-menu a {
+  color: #787a79;
+}
+
+.display-menu a:hover {
+  color: #000;
+}
+
+@media only screen and (min-width: 600px) {
+  .home-header-text .plain-red {
+    font-size: 30px;
+  }
+
+  .home-header-text .background-red {
+    font-size: 45px;
+  }
+
+  .home-para-text p {
+    font-size: 20px;
+    color: #272a31;
+  }
+
+  .home-date-text {
+    font-size: 20px;
+  }
+
+  .section-title h3 {
+    font-size: 40px;
+  }
+
+  .program-section .section-title {
+    font-size: 18px;
+  }
+
+  .features-section p {
+    font-size: 18px;
+  }
+
+  .two-pictures {
+    height: 260px;
+  }
+
+  .two-pictures-1 {
+    height: 260px;
+  }
+
+  .partner-items img {
+    width: 250px;
+  }
+
+  .footer-section p {
+    font-size: 19px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .home-header-text .plain-red {
+    font-size: 35px;
+  }
+
+  .home-header-text .background-red {
+    font-size: 55px;
+  }
+
+  .home-para-text p {
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  .home-date-text {
+    font-size: 28px;
+  }
+
+  .section-title h3 {
+    font-size: 42px;
+  }
+
+  .program-section .section-title {
+    font-size: 22px;
+  }
+
+  .logo-with-border {
+    width: 80%;
+  }
+
+  .two-pictures {
+    height: 320px;
+  }
+
+  .two-pictures-1 {
+    height: 320px;
+  }
+
+  .about-card-text h1 {
+    font-size: 40px;
+  }
+
+  .features-section p {
+    font-size: 24px;
+  }
+
+  .footer-section p {
+    font-size: 23px;
+    width: 500px;
+  }
+
+  .footer-section img {
+    width: 150px;
+    height: 100px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .sub-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 100%;
+    background-color: #000;
+    padding: 5px 100px;
+  }
+
+  .sub-menu a {
+    color: #fff;
+  }
+
+  .sub-menu a:hover {
+    color: #ec5242;
+  }
+
+  .sub-menu li {
+    margin: 0 5px;
+  }
+
+  .main-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 100px;
+  }
+
+  .main-header .logo {
+    display: flex;
+  }
+
+  .footer-section img {
+    width: 200px;
+    height: 120px;
+  }
+
+  .main-header .logo img {
+    width: 100px;
+  }
+
+  .main-menu li {
+    margin: 0 10px;
+  }
+
+  .main-menu a:hover {
+    color: #ec5242;
+  }
+
+  .main-menu .active-link {
+    border: 3px solid #ec5242;
+    padding: 10px;
+    color: #ec5242;
+  }
+
+  .open-menu {
+    display: none;
+  }
+
+  .close-menu {
+    display: none;
+  }
+
+  .main-menu {
+    display: flex;
+  }
+
+  .plain-red {
+    display: none;
+  }
+
+  .home-header-text {
+    align-items: center;
+  }
+
+  .home-header-text .background-red {
+    width: 595px;
+    font-size: 60px;
+  }
+
+  .home-para-text {
+    width: 70%;
+    margin: 10px auto;
+  }
+
+  .home-para-text p {
+    font-size: 20px;
+  }
+
+  .home-date-text {
+    font-size: 20px;
+    width: 70%;
+  }
+
+  .home-date-text span {
+    font-weight: bold;
+  }
+
+  .section-title h3 {
+    font-size: 35px;
+  }
+
+  .section-title p {
+    font-size: 18px;
+    width: 500px;
+  }
+
+  .logo-with-border {
+    width: 55%;
+  }
+
+  .d-flex-pictures {
+    flex-direction: row;
+  }
+
+  .about-card-text h1 {
+    font-size: 35px;
+  }
+
+  .features-section p {
+    font-size: 18px;
+  }
+
+  .features-section {
+    padding-bottom: 30px;
+  }
+
+  .footer-section p {
+    font-size: 25px;
+    width: 800px;
+  }
+}
